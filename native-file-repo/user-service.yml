@@ -1,0 +1,16 @@
+token:
+  expiration_time: 864000000
+  secret: '{cipher}AQBQMwrjDGVYOUquU1Rgcxs7c+ELCWNwBYcmKD7cH++Vnd7G5+dT0TvfiR/LBMWOBAHgB58+cwPVQKI05u0jzDoHR2MJE/q3DVJuj64x8SWVf/e6qeUM/CQhy8T5Bs8erpplR7p+fd8r7U/B3rpsgQ63mAgtLrpy3c5A9PlTvWFW6/fg+paWKQP6UEv56lqjQIysQhIUwmBDxBAEN0iCKz2g8k/bfClVZXylWLdCtboIgjw4mcbq4zEbJE4o1QHIF73aLK9fwZ9sahmjZSOYVYJcNjVCRLI7iHFBI4BQWGzids/9l/m77GG3zbdEzTAE5G1PCjnBm2No+rcj1GPUPswg1O9I9UI7EAzuHBXdG+lpJUJHxer7TPirWjmfCcucBCKrsRsZm2PtkTsVUqjzbCoh'
+
+gateway:
+  ip: localhost
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/test
+    username: '{cipher}AQCpRg9qo8u0WDkdlZXUK2AJ6k+MtBI/hYHS/uUJlDfmtjObQksSkvLRL3wrXafBZsnnIE0e8cnXnPb9QPpdoKkBWFftMTMkTZlMfB7XpIW/Ov4qlGcvxyscgsO+Je5vuF1OwgdiieEA4Axy1P0hh7+A48hfdusyoNui3U6lMB0z1x5WDLuvbbeioHhgucgKZfdgpkt9ulR6hAVgbigDMyOFFtiyyPWH+B/p31AtMZWGkyt7gwNY/JuUBbVSdI+5ysV8bP+UqK6OvG6yQUT2020bjvckprr7pz4xn+ni2ZtReznXwz+2Gz0LMm0PbdpMpOsztxYyLjF/exRK3E+3S3KEYzw+c/GgjaPq+xUAe30OuAWPHztlcR4lqijxJ/mSlcg='
+
+order_service:
+  # url: http://localhost:8000/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders

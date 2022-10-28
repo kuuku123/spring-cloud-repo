@@ -1,0 +1,6 @@
+encrypt:
+#  key: alskdjlfksjldkjflksjldkjfklsjdkfljs
+  key-store:
+    location: file://${user.home}/vscode/spring-cloud/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
